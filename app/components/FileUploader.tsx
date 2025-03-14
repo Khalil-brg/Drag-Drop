@@ -27,7 +27,7 @@ export default function FileUploader() {
       className="w-40 h-20 border-dashed border border-black"
     >
       <input {...getInputProps()} />
-      <p className="text-gray-300">Drag file Here to Upload</p>
+      <p className="text-gray-400">Drag file Here to Upload</p>
     </div>
   );
 }
